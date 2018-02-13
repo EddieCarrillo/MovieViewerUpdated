@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  FlicksApp
+//  MovieViewer
 //
-//  Created by Eduardo Carrillo on 2/6/18.
-//  Copyright © 2018 Eduardo Carrillo. All rights reserved.
+//  Created by my mac on 2/1/17.
+//  Copyright © 2017 Eduardo Carrillo. All rights reserved.
 //
 
 import UIKit

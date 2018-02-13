@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11761" systemVersion="15G1611" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6fo-ip-tEB">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="movie_ticket_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Kqe-Dg-taG">
+                                        <rect key="frame" x="87" y="233.5" width="200" height="200"/>
+                                        <color key="tintColor" red="1" green="0.96697786132404195" blue="0.12247187352418931" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flicker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yht-Cj-mti">
+                                        <rect key="frame" x="126" y="115.5" width="123.5" height="54"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="45"/>
+                                        <color key="textColor" red="0.0021667172020446803" green="0.0021712932180850686" blue="0.00015001781623907162" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By Eduardo Carrillo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdq-Xz-dry">
+                                        <rect key="frame" x="209" y="638" width="158" height="21"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.9810193650265957" green="0.9810193650265957" blue="0.9810193650265957" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="gdq-Xz-dry" secondAttribute="trailing" constant="8" id="6Hh-Se-Nss"/>
+                                    <constraint firstItem="Kqe-Dg-taG" firstAttribute="top" secondItem="yht-Cj-mti" secondAttribute="bottom" constant="64" id="6wf-1o-aai"/>
+                                    <constraint firstAttribute="bottom" secondItem="gdq-Xz-dry" secondAttribute="bottom" constant="8" id="7KX-94-ao1"/>
+                                    <constraint firstItem="yht-Cj-mti" firstAttribute="centerX" secondItem="6fo-ip-tEB" secondAttribute="centerX" id="DCP-B9-01V"/>
+                                    <constraint firstItem="Kqe-Dg-taG" firstAttribute="centerY" secondItem="6fo-ip-tEB" secondAttribute="centerY" id="Wmb-Tr-7Ed"/>
+                                    <constraint firstItem="Kqe-Dg-taG" firstAttribute="centerX" secondItem="6fo-ip-tEB" secondAttribute="centerX" id="ha0-tG-kdH"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6fo-ip-tEB" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="M6Z-Qi-AXg"/>
+                            <constraint firstItem="6fo-ip-tEB" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Q7d-aO-H4N"/>
+                            <constraint firstAttribute="trailing" secondItem="6fo-ip-tEB" secondAttribute="trailing" id="SfO-My-SsA"/>
+                            <constraint firstItem="6fo-ip-tEB" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Uid-cS-EY5"/>
+                            <constraint firstItem="6fo-ip-tEB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="dLR-Ez-kPa"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="6fo-ip-tEB" secondAttribute="bottom" id="h59-sw-bKS"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="movie_ticket_icon" width="200" height="200"/>
+    </resources>
+</document>
